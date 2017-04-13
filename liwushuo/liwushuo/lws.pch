@@ -1,0 +1,21 @@
+//
+//  lws.pch
+//  liwushuo
+//
+//  Created by BO on 17/3/30.
+//  Copyright © 2017年 xsqBO. All rights reserved.
+//
+
+#ifndef lws_pch
+#define lws_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "NewsHttpReq.h"
+#import <MJExtension/MJExtension.h>
+#import "UIView+Extension.h"
+#import "UIImageView+WebCache.h"
+#define iPhone_W [UIScreen mainScreen].bounds.size.width
+#define iphone_H [UIScreen mainScreen].bounds.size.height
+
+#endif /* lws_pch */
